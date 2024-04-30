@@ -1,0 +1,9 @@
+1. At line 12, the code will print the number 3. This is because i is declared as a var within the for loop, and the loop increments the length of the array updating i. The code can recognize it later since i is declared as a var.
+2. At line 13, the code will print the last discounted price that was calculated in the for loop. This is because discountedPrice was declared as a var, so the code can still recognize it later.
+3. At line 14, the code will print the last finalPrice that was calculated in the for loop. This is because finalPrice was declared in the beginning as a var, so the code can still recognize it later.
+4. The function will return an array displaying the correct discounted prices for each price in the prices array. This is because when the variables are declared as var, when they are calculated in the for loop, they can always be accessed and updated correctly.
+5. At line 12, the code will error. This is because when it tries to print i, i is a variable that seems to never be declared. Using let in the for loop, it stays within that for loop's scope.
+6. At line 13, the code will error. This is because when it tries to print discountedPrice, that is a variable that seems to never be declared. Using let in the for loop, discountedPrice stays within the for loop's scope.
+7. At line 14, the code will print 150/the last final price calculated in the for loop. This is because finalPrice was declared within the function's scope, and when the function tries to print it later, the variable is found within the same scope.
+8. This function will return an array displaying the correct discounted prices for each price in the prices array. When the variables are declared using let, the function is still written in a way where the variables are updated correctly during calculations.
+9. Line 11 will never get to run, and the code will cause an error. This is because final
