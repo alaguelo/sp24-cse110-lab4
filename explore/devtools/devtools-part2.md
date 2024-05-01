@@ -1,0 +1,2 @@
+1. The bug was that the numbers were not being recognized for their numerical values, instead being recognized as strings and concatenated.
+2. I fixed the bug by casting each number as a "Number" type, ensuring that the parameters would correctly be considered as numbers, then operations would be mathematical. 
